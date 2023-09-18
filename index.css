@@ -1,0 +1,103 @@
+.center{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 30px;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+img{
+    width: 350px;
+    border-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+h1{
+    font-family: Red Hat Display;
+    font-size: 20px;
+}
+p{
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Red Hat Display;
+    font-weight: 200px;
+}
+.plan{
+    background-color: hsl(220, 18%, 97%);
+    height: 35px;
+    border-radius: 12px;
+   position: absolute;
+   left: 50px;
+   
+   width: 250px;
+   height: 70px;
+   margin-top: 1px;
+
+   
+    
+}
+svg{
+    padding-top: 10px;
+}
+.annual{
+    font-weight: 600;
+   position: relative;
+   bottom: 30px;
+}
+.price{
+    position: relative;
+    right: 85px;
+    bottom: 8px;
+    
+}
+.change{
+    position: relative;
+    font-size: 13px;
+    left: 90px;
+    bottom: 35px;
+    
+}
+.payment{
+    background-color: blue;
+    width: 250px;
+   height: 40px;
+    position: relative;
+    top: 75px;
+    left: 50px;
+   
+    text-align: center;
+    border-radius: 13px;
+}
+.payment-span{
+    position: relative;
+    top:12px;
+    color: white;
+}
+.cancel{
+    color: gray;
+    position: relative;
+    top: 70px;
+   
+}
+.cancel p{
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+h2{
+    font-family: Red Hat Display;
+}
+
